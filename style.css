@@ -1,0 +1,213 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.poppins {
+    font-family: Poppins;
+}
+
+.roboto {
+    font-family: Roboto Condensed;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+large {
+    font-size: 1.4em;
+}
+
+.x {
+    outline: 1px solid red;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+.conainer {
+    outline: 3px green solid;
+}
+
+.home {
+    height: 100vh;
+    background: url(img/pryamougolnik_1_8.jpg) no-repeat, rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-blend-mode: color;
+    background-size: cover;
+}
+
+.games {
+    font-size: 0.75em;
+    line-height: 1em;
+    letter-spacing: 2.0em;
+    padding-left: 2.0em;
+
+}
+
+.historical {
+    font-size: 1.7em;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    padding-left: 0.05em;
+}
+
+.phonenumber {
+    font-size: 0.9em;
+    letter-spacing: 0em;
+}
+
+.mail {
+    font-size: 0.9em;
+    letter-spacing: 0em;
+}
+
+.form-inline {
+    border: 1px solid #ffffff;
+}
+
+.formsearch {
+    background: rgba(0, 0, 0, 0);
+}
+
+.formsearch:focus {
+    outline: none;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.btnsearch {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-left: 1px solid #ffffff;
+    font-size: 0.9em;
+}
+
+
+.header:hover .menu {
+    display: block;
+}
+
+.menu {
+    display: none;
+}
+
+.nav-link {
+    border-bottom: solid 2px rgba(0, 0, 0, 0);
+}
+
+.nav-link:hover {
+    border-bottom: solid 2px;
+}
+
+.divide {
+    height: 2px;
+    width: 80px;
+    background-color: #ffffff;
+}
+
+.home__text {
+    height: 70%;
+}
+
+
+
+.services-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+}
+
+.services-item:hover .services-icon {
+    background-color: rgb(214, 54, 66);
+    color: #ffffff;
+}
+
+.services-item:hover .services-title {
+    color: rgb(214, 54, 66);
+}
+
+.testimonial {
+    background: url(img/pryamougolnik_11_346.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 30rem;
+}
+
+.subscribe {
+    background: url(img/pryamougolnik_21_481.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+400px
+*/
+@media screen and (max-width: 400px) {
+    .btnsearch {
+        width: 100%;
+        border: 1px solid;
+    }
+
+    .btnsubscribe {
+        width: 50%;
+        margin: 0;
+    }
+
+
+
+    .home {
+        height: 40vh;
+    }
+
+    .home__text {
+        height: 100%;
+    }
+
+    .services-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .services-title {
+        font-size: 1em;
+    }
+}
+
+/*
+576px
+*/
+@media screen and (max-width: 576px) and (min-width: 401px) {
+
+    .home {
+        height: 60vh;
+    }
+
+    .home__text {
+        height: 100%;
+    }
+
+    .services-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .services-title {
+        font-size: 1em;
+    }
+
+}
+
+/*
+992px
+*/
+@media screen and (max-width: 992px) {
+    .menu {
+        display: block;
+    }
+}
